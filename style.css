@@ -133,6 +133,7 @@ transition: transform 1s ease-in-out 0.1s;
 .see-collection a
     {
     display: block;
+    margin-left: 180px;
     font-size: 28px;
     text-decoration: none;
     color: #ff008E;
@@ -335,9 +336,11 @@ transition: transform 1s ease-in-out 0.1s;
         width: 328px;
         height: 248px;
     }
-    .see-collection
+    .see-collection a
 {
-    font-size: 16px;
+    display: block;
+    margin-left: 14px;
+    font-size: 19px;
     text-decoration: none;
     color: #ff008E;
     flex-direction: column;
@@ -475,9 +478,12 @@ display: flex;
         line-height: 8px;
         color: #6C6C6C;
     }
-    .see-collection
+    .see-collection a
     {   
-    font-size: 18px;
+        display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 28px;
     text-decoration: none;
     color: #ff008E;
     }
