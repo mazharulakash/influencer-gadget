@@ -6,6 +6,7 @@
     font-weight: 600;
     margin-top: 0;
     margin-left: 80px;
+    
 }
 /* navigation */
 nav
@@ -43,6 +44,8 @@ display: flex;
     position: relative;
     padding: 207px 85px 240px 156px;
     width: 685px;
+
+
 }
 .first-section p
 {
@@ -94,8 +97,9 @@ transition: transform 1s ease-in-out 0.1s;
 .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 180px;
+    margin-left: 160px;
     margin-right: 180px;
+    column-gap: 20px;
 }
 .collection{
     width: 360px;
@@ -103,7 +107,7 @@ transition: transform 1s ease-in-out 0.1s;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px;
-    margin-bottom: 39px;
+    margin-bottom: 39px; 
     overflow: hidden;
     border-radius: 7px;
 }
@@ -133,7 +137,7 @@ transition: transform 1s ease-in-out 0.1s;
 .see-collection a
     {
     display: block;
-    margin-left: 180px;
+    margin-left: 200px;
     font-size: 28px;
     text-decoration: none;
     color: #ff008E;
@@ -339,7 +343,7 @@ transition: transform 1s ease-in-out 0.1s;
     .see-collection a
 {
     display: block;
-    margin-left: 14px;
+    margin-left: 38px;
     font-size: 19px;
     text-decoration: none;
     color: #ff008E;
@@ -481,8 +485,8 @@ display: flex;
     .see-collection a
     {   
         display: block;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 39px;
     font-size: 28px;
     text-decoration: none;
     color: #ff008E;
